@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+  <!--Navigation Bar-->
+	<nav class="navbar">
+	  <ul>
+		<li><a href="#home">Homepage</a></li>
+		<li><a href="#about">About</a></li>
+		<li><a href="#service">Service</a></li>
+		<li><a href="#contact">Contact</a></li>
+	  </ul>
+	</nav>
+	<!--Content-->
+	<section id="home">
+	  <h1>Welcom to henryshow.ca(Demo)</h1>
+	  <p class="lead">
+	    Henry is a geek, focuses on Web development(JavaScript Full Stack).
+	  </p>
+	</section>
+	<section id="about" >
+	  <h1>About henryshow.ca</h1>
+	  <p class="lead">
+	    Henry is also proficient in Linux, database, and security.
+	  </p>
+	</section>
+	<section id="service">
+	  <h1>Services</h1>
+	  <p class="lead">
+	    Compared with DevOps,I'm more passionate about Web development.
+	  </p>
+	</section>
+	<section id="contact">
+	  <h1>Contact</h1>
+	  <p class="lead">
+	    “Talk is cheap. Show me the code.” ― Linus Torvalds.
+	  </p>
+	</section>
+	
+	<!--Footer-->
+	<footer>
+		<footer>
+      <a href="https://henryshow.ca">@ 2020 Henryshow.ca</a>
+    </footer>
+  </div>
+</body>
+</html>

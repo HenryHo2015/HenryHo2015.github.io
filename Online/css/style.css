@@ -1,0 +1,107 @@
+/*CSS Reset*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background: #333;
+	color: #fff;
+	height: 100vh;
+	line-height: 1.6;
+	
+	overflow: hidden;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	
+	scroll-behavior: smooth;
+	scroll-snap-type: y mandatory;
+	
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 60px;
+	background: rgba(0,0,0,0.7)
+}
+
+.navbar ul{
+	display: flex;
+	list-style: none;
+	width: 100%;
+	justify-content: center;
+}
+
+.navbar ul li{
+	margin: 0 1rem;
+	padding: 1rem;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: #f4f4f4;
+}
+
+.navbar ul li a:hover{
+	color: skyblue;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+	
+	scroll-snap-align: center;
+}
+
+section h1{
+	font-size: 4rem;
+}
+
+section h1 p{
+	font-size: 1.5rem;
+}
+
+section#home{
+	background: url("../imgs/01.jpg") no-repeat center center/cover;
+}
+
+section#about{
+	background: url("../imgs/02.jpeg") no-repeat center center/cover;
+}
+
+section#service{
+	background: url("../imgs/03.jpeg") no-repeat center center/cover;
+}
+
+section#contact{
+	background: url("../imgs/04.jpeg") no-repeat center center/cover;
+}
+
+footer{
+	width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+footer a{
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: skyblue;
+}
